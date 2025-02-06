@@ -1,0 +1,734 @@
+@media (max-width: 1800px) {
+  #header {
+    padding: 60px 0;
+  }
+  .inner {
+    padding: 0 6%;
+  }
+}
+@media (max-width: 1600px) {
+  /* 공통-타이틀 */
+  h2 {
+    font-size: 3rem;
+  }
+  h1 {
+    font-size: 8.5rem;
+  }
+  h3 {
+    font-size: 2.2rem;
+  }
+  h4 {
+    font-size: 5.5rem;
+  }
+  /* 메인 */
+  #main h1 {
+    margin: 34px 0;
+  }
+  /* 메인-폼 */
+  #main .form {
+    height: 646px;
+  }
+  #main .form dt {
+    margin-bottom: 8px;
+    font-size: 3.6rem;
+  }
+  #main .form dt span {
+    margin-left: 8px;
+    font-size: 2.8rem;
+  }
+  #main .form dt + dd {
+    margin-bottom: 34px;
+    font-size: 2.2rem;
+  }
+  #main .form label {
+    height: 64px;
+    padding: 17px 20px;
+  }
+  #main .form input {
+    padding: 18px 20px 16px;
+  }
+  /* 메인-폼-마지막 */
+  #main .form .submit dt {
+    font-size: 3.2rem;
+  }
+  #main .form .submit dt + dd {
+    font-size: 1.8rem;
+  }
+  #main .form .submit label {
+    font-size: 1.8rem;
+  }
+  #main .form .submit input {
+    height: 64px;
+    padding: 14px 20px 12px;
+    font-size: 1.8rem;
+  }
+  #main .form .submit input::placeholder {
+    font-size: 1.8rem;
+  }
+  /* 메리트 */
+  #merit .merit-list {
+    gap: 24px;
+  }
+  #merit .merit-list dt {
+    font-size: 2.6rem;
+  }
+  #merit .merit-list dt + dd {
+    margin: 6px 0 10px;
+  }
+  #merit .merit-list dt + dd + dd {
+    margin-bottom: 6px;
+    font-size: 2.8rem;
+  }
+  #merit .merit-list dt + dd + dd + dd {
+    font-size: 1.8rem;
+  }
+  /* 상담 */
+  #consult h1 {
+    margin: 34px 0 80px;
+  }
+  #consult .formfill {
+    height: 489px;
+    padding-top: 106px;
+  }
+  #consult .formfill .q-item {
+    width: 540px;
+  }
+  #consult .formfill label {
+    font-size: 2.6rem;
+  }
+  #consult .formfill input {
+    width: 440px;
+    height: 74px;
+    font-size: 2.6rem;
+  }
+  #consult .formfill input::placeholder {
+    font-size: 2.4rem;
+  }
+  #consult .formfill .btn-submit {
+    margin-left: 340px;
+    width: 200px;
+    height: 64px;
+    padding: 18px;
+    font-size: 2.4rem;
+  }
+  /* 수임료 */
+  /* 사례 */
+  #case .swiper-container li {
+    width: 280px;
+  }
+  #case .swiper-container li dl {
+    padding: 40px 30px 40px;
+  }
+  #case .swiper-container li dt {
+    font-size: 2.2rem;
+  }
+  #case .swiper-container li dt + dd {
+    margin: 40px 0 12px;
+    font-size: 8rem;
+  }
+  #case .swiper-container li dt + dd span {
+    font-size: 2.8rem;
+  }
+  #case .swiper-container li dt + dd + dd {
+    font-size: 1.8rem;
+  }
+}
+@media (max-width: 1500px) {
+  /* 공통-타이틀 */
+  h2 {
+    font-size: 2.6rem;
+  }
+  h1 {
+    font-size: 7.5rem;
+  }
+  h3 {
+    font-size: 2rem;
+  }
+  h4 {
+    font-size: 5rem;
+  }
+  /* 메인 */
+  #main h1 {
+    margin: 24px 0;
+  }
+  /* 메인-폼 */
+  #main .form {
+    width: 520px;
+    height: 606px;
+  }
+  #main .form dt {
+    margin-bottom: 6px;
+    font-size: 3.4rem;
+  }
+  #main .form dt span {
+    margin-left: 6px;
+    font-size: 2.6rem;
+  }
+  #main .form dt + dd {
+    margin-bottom: 26px;
+    font-size: 2rem;
+  }
+  #main .form label {
+    height: 60px;
+    padding: 17px 20px;
+    font-size: 1.8rem;
+  }
+  #main .form input {
+    padding: 16px 20px 14px;
+  }
+  /* 메인-폼-마지막 */
+  #main .form .submit dt {
+    font-size: 3rem;
+  }
+  #main .form .submit dt + dd {
+    font-size: 1.6rem;
+  }
+  #main .form dt + dd span {
+    font-size: 1rem;
+  }
+  #main .form .submit label {
+    font-size: 1.6rem;
+  }
+  #main .form .submit input {
+    height: 60px;
+    padding: 12px 20px 10px;
+    font-size: 1.6rem;
+  }
+  #main .form .submit input::placeholder {
+    font-size: 1.6rem;
+  }
+  #main .form .swiper-control {
+    bottom: 40px;
+  }
+  #main .form .btn-submit {
+    bottom: 50px;
+    width: 418px;
+  }
+  /* 메리트 */
+  #merit .inner {
+    height: auto;
+  }
+  #merit .merit-list {
+    gap: 18px;
+  }
+  #merit .merit-list dt {
+    font-size: 2.4rem;
+  }
+  #merit .merit-list dt + dd {
+    margin: 4px 0 8px;
+  }
+  #merit .merit-list dt + dd + dd {
+    margin-bottom: 4px;
+    font-size: 2.6rem;
+  }
+  #merit .merit-list dt + dd + dd + dd {
+    font-size: 1.8rem;
+  }
+  /* 상담신청 */
+  #consult h1 {
+    margin: 18px 0 60px;
+  }
+
+  #consult .formfill {
+    height: 410px;
+    padding-top: 80px;
+  }
+  #consult .formfill .q-item {
+    width: 480px;
+  }
+  #consult .formfill .q-item:not(:last-of-type) {
+    margin-bottom: 16px;
+  }
+  #consult .formfill label {
+    font-size: 2.4rem;
+  }
+  #consult .formfill input {
+    width: 380px;
+    height: 64px;
+    font-size: 2.4rem;
+  }
+  #consult .formfill input::placeholder {
+    font-size: 2.4rem;
+  }
+  #consult .formfill input::placeholder {
+    font-size: 2rem;
+  }
+  #consult .formfill .btn-submit {
+    margin-left: 300px;
+    width: 180px;
+    height: 64px;
+    padding: 18px;
+    font-size: 2rem;
+  }
+  /* 사례 */
+  #case .swiper-container li {
+    width: 260px;
+  }
+  #case .swiper-container li dl {
+    padding: 40px 30px 40px;
+  }
+  #case .swiper-container li dt {
+    font-size: 2rem;
+  }
+  #case .swiper-container li dt + dd {
+    margin: 40px 0 12px;
+    font-size: 7rem;
+  }
+  #case .swiper-container li dt + dd span {
+    font-size: 2.6rem;
+  }
+  #case .swiper-container li dt + dd + dd {
+    font-size: 1.6rem;
+  }
+}
+@media (max-width: 1280px) {
+  /* 공통-타이틀 */
+  h2 {
+    font-size: 2.2rem;
+  }
+  h1 {
+    font-size: 6.5rem;
+  }
+  h3 {
+    font-size: 1.8rem;
+  }
+  h4 {
+    font-size: 4rem;
+  }
+  /* 메인 */
+  /* #main h1 {
+    margin: 24px 0;
+  } */
+  /* 메인-폼 */
+  #main .form {
+    width: 450px;
+    height: 586px;
+  }
+  #main .form li {
+    padding: 40px;
+  }
+  #main .form dt {
+    margin-bottom: 6px;
+    font-size: 3.2rem;
+  }
+  #main .form dt span {
+    margin-left: 6px;
+    font-size: 2.4rem;
+  }
+  #main .form dt + dd {
+    margin-bottom: 26px;
+    font-size: 1.8rem;
+  }
+  #main .form label {
+    height: 54px;
+    padding: 14px 20px;
+    font-size: 1.6rem;
+  }
+  #main .form input {
+    padding: 16px 20px 14px;
+  }
+  /* 메인-폼-마지막 */
+  #main .form .submit dt {
+    font-size: 2.8rem;
+  }
+  #main .form .submit dt + dd {
+    font-size: 1.4rem;
+  }
+  #main .form dt + dd span {
+    font-size: 1rem;
+  }
+  #main .form .submit label {
+    font-size: 1.4rem;
+  }
+  #main .form .submit input {
+    height: 54px;
+    padding: 9px 20px 7px;
+    font-size: 1.4rem;
+  }
+  #main .form .submit input::placeholder {
+    font-size: 1.4rem;
+  }
+  #main .form .btn-submit {
+    bottom: 40px;
+    width: 348px;
+  }
+  /* 메리트 */
+  #merit .inner {
+    height: auto;
+  }
+  #merit .merit-list {
+    gap: 18px;
+  }
+  #merit .merit-list dt {
+    font-size: 2.2rem;
+  }
+  #merit .merit-list dt + dd {
+    margin: 4px 0 8px;
+  }
+  #merit .merit-list dt + dd + dd {
+    margin-bottom: 4px;
+    font-size: 2.4rem;
+  }
+  #merit .merit-list dt + dd + dd + dd {
+    font-size: 1.6rem;
+  }
+  /* 상담신청 */
+  /* #consult h1 {
+    margin: 18px 0 60px;
+  } */
+  #consult .inner {
+    grid-template-columns: 2fr 0.5fr;
+  }
+  #consult .formfill {
+    align-items: flex-end;
+    height: 367px;
+    padding-top: 70px;
+  }
+  #consult .formfill .q-item {
+    width: 400px;
+  }
+  #consult .formfill .q-item:not(:last-of-type) {
+    margin-bottom: 16px;
+  }
+  #consult .formfill label {
+    font-size: 2.2rem;
+  }
+  #consult .formfill input {
+    width: 300px;
+    height: 54px;
+    font-size: 2.2rem;
+  }
+  #consult .formfill input::placeholder {
+    font-size: 2.2rem;
+  }
+  #consult .formfill input::placeholder {
+    font-size: 1.8rem;
+  }
+  #consult .formfill .btn-submit {
+    margin-left: 290px;
+    width: 160px;
+    height: 54px;
+    padding: 18px;
+    font-size: 1.8rem;
+  }
+  /* 사례 */
+  #case .swiper-container li {
+    width: 240px;
+  }
+  #case .swiper-container li dl {
+    padding: 40px 30px 40px;
+  }
+  #case .swiper-container li dt {
+    font-size: 1.8rem;
+  }
+  #case .swiper-container li dt + dd {
+    margin: 40px 0 12px;
+    font-size: 6rem;
+  }
+  #case .swiper-container li dt + dd span {
+    font-size: 2.4rem;
+  }
+  #case .swiper-container li dt + dd + dd {
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 1024px) {
+  /* 공통-타이틀 */
+  h2 {
+    text-align: center;
+    font-size: 1.8rem;
+  }
+  h1 {
+    text-align: center;
+    font-size: 3rem;
+  }
+  h1 br {
+    display: none;
+  }
+  h3 {
+    text-align: center;
+    font-size: 1.6rem;
+  }
+  h4 {
+    font-size: 3rem;
+  }
+  /* 공통-섹션 */
+  section {
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+  }
+  /* 헤더 */
+  #header {
+    padding: 30px 0;
+  }
+  #header.scrolled {
+    padding: 16px 0;
+  }
+  /* 메인 */
+  #main {
+    padding-top: 100px;
+  }
+  #main .inner {
+    /* grid-template-columns: 1fr; */
+    display: block;
+  }
+  #main h1 {
+    margin: 8px 0;
+  }
+  /* 메인-폼 */
+  #main .form {
+    margin-top: 20px;
+    width: 450px;
+    height: 496px;
+    border-radius: 30px;
+  }
+  #main .form li {
+    padding: 40px;
+  }
+  #main .form dt {
+    margin-bottom: 6px;
+    font-size: 2.4rem;
+  }
+  #main .form dt span {
+    margin-left: 6px;
+    font-size: 2rem;
+  }
+  #main .form dt + dd {
+    margin-bottom: 26px;
+    font-size: 1.8rem;
+  }
+  #main .form .q-item {
+    border-radius: 10px;
+  }
+  #main .form label {
+    height: 44px;
+    padding: 9px 20px;
+    font-size: 1.6rem;
+  }
+  #main .form input {
+    padding: 8px 20px 6px;
+  }
+  /* 메인-폼-마지막 */
+  #main .form .submit dt {
+    font-size: 2.4rem;
+  }
+  #main .form .submit dt + dd {
+    font-size: 1.2rem;
+  }
+
+  #main .form .submit label {
+    font-size: 1.6rem;
+  }
+  #main .form .submit input {
+    height: 44px;
+    padding: 9px 20px 7px;
+    font-size: 1.6rem;
+    border-radius: 10px;
+  }
+  #main .form .submit input::placeholder {
+    font-size: 1.6rem;
+  }
+
+  #main .form .btn-submit {
+    bottom: 40px;
+    width: 368px;
+    height: 44px;
+    font-size: 1.6rem;
+    border-radius: 10px;
+  }
+  /* 메리트 */
+  #merit .inner {
+    height: auto;
+  }
+  #merit .merit-list {
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+  }
+  #merit .merit-list dt {
+    font-size: 2rem;
+  }
+  #merit .merit-list dt + dd {
+    margin: 4px 0 8px;
+  }
+  #merit .merit-list dt + dd + dd {
+    margin-bottom: 4px;
+    font-size: 2.2rem;
+  }
+  #merit .merit-list dt + dd + dd + dd {
+    font-size: 1.4rem;
+  }
+  /* 상담신청 */
+  #consult h1 {
+    margin: 8px 0;
+  }
+  #consult .inner {
+    display: block;
+    padding-top: 0px;
+  }
+  #consult .formfill {
+    align-items: center;
+    height: auto;
+    padding-top: 20px;
+  }
+  #consult .formfill .q-item {
+    width: 400px;
+  }
+  #consult .formfill .q-item:not(:last-of-type) {
+    margin-bottom: 16px;
+  }
+  #consult .formfill label {
+    font-size: 1.6rem;
+  }
+  #consult .formfill input {
+    width: 300px;
+    height: 44px;
+    font-size: 1.6rem;
+  }
+  #consult .formfill input::placeholder {
+    font-size: 1.6rem;
+  }
+  #consult .formfill input::placeholder {
+    font-size: 1.6rem;
+  }
+  #consult .formfill .btn-submit {
+    margin-left: 0px;
+    margin-top: 20px;
+    width: 160px;
+    height: 44px;
+    padding: 8px;
+    font-size: 1.6rem;
+  }
+  /* 사례 */
+  #case .swiper-container li {
+    width: 200px;
+  }
+  #case .swiper-container li dl {
+    padding: 30px 20px 30px;
+  }
+  #case .swiper-container li dt {
+    font-size: 1.6rem;
+  }
+  #case .swiper-container li dt + dd {
+    margin: 40px 0 12px;
+    font-size: 4rem;
+  }
+  #case .swiper-container li dt + dd span {
+    margin-bottom: -4px;
+    font-size: 1.4rem;
+  }
+  #case .swiper-container li dt + dd + dd {
+    height: 54px;
+    font-size: 1.4rem;
+  }
+}
+@media (max-width: 768px) {
+  #main h1 br:nth-of-type(2) {
+    display: block;
+  }
+  #merit .merit-list {
+    grid-template-columns: 1fr;
+  }
+  #merit .merit-list li dl {
+    padding: 30px 0;
+  }
+  #merit .merit-list li:nth-of-type(1) dl {
+    background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+      url(../img/img-merit01.png) no-repeat center;
+    background-size: cover;
+  }
+  #merit .merit-list li:nth-of-type(2) dl {
+    background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+      url(../img/img-merit02.png) no-repeat center;
+    background-size: cover;
+  }
+  #merit .merit-list li:nth-of-type(3) dl {
+    background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+      url(../img/img-merit03.png) no-repeat center;
+    background-size: cover;
+  }
+  #merit .merit-list li:nth-of-type(4) dl {
+    background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+      url(../img/img-merit04.png) no-repeat center;
+    background-size: cover;
+  }
+  #merit .merit-list dt + dd img {
+    display: none;
+  }
+}
+@media (max-width: 512px) {
+  #header img {
+    width: 220px;
+  }
+  #main h1 br {
+    display: block;
+  }
+  #main h3 br:nth-of-type(2) {
+    display: block;
+  }
+  #main .form {
+    width: 280px;
+    height: 466px;
+  }
+  #main .form li {
+    padding: 30px 20px;
+  }
+  #main .form dt {
+    margin-bottom: 0px;
+  }
+  #main .form dt + dd {
+    margin-bottom: 18px;
+  }
+  #main .form label {
+    padding: 11px 14px;
+    font-size: 1.3rem;
+  }
+  #main .form input {
+    padding: 8px 20px 6px 0px;
+  }
+  #main .form .swiper-control {
+    bottom: 25px;
+    padding: 0 20px;
+  }
+  #main .form .swiper-button-prev,
+  #main .form .swiper-button-next,
+  #main .form .swiper-pagination {
+    font-size: 1.6rem;
+  }
+  #main .form .submit dt {
+    font-size: 2rem;
+  }
+  #main .form .submit label {
+    font-size: 1.4rem;
+  }
+  #main .form .submit input {
+    font-size: 1.4rem;
+  }
+  #main .form .submit input::placeholder {
+    font-size: 1.4rem;
+  }
+  #main .form .btn-submit {
+    width: 238px;
+    font-size: 1.4rem;
+  }
+  #merit h4 br:nth-of-type(1),
+  #merit h4 br:nth-of-type(3) {
+    display: block;
+  }
+  #consult h1 br {
+    display: block;
+  }
+  #consult .formfill .q-item {
+    width: 290px;
+  }
+  #consult .formfill label {
+    font-size: 1.4rem;
+  }
+  #consult .formfill input {
+    width: 220px;
+    font-size: 1.4rem;
+  }
+  #consult .formfill input::placeholder {
+    font-size: 1.4rem;
+  }
+}
