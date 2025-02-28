@@ -975,7 +975,7 @@
     transform: translateX(0%);
   }
   .float .quick {
-    width: 100%;
+    width: 100vw;
     border-radius: 0px;
   }
   .float .quick .tel span {
