@@ -1293,10 +1293,10 @@
   }
   /* 퀵 */
   .float .quick {
-    height: 58px;
+    height: 78px;
   }
   .float .quick a {
-    padding: 15px 12px;
+    padding: 24px 12px;
   }
   .float .quick .tel span {
     padding-top: 3px;
